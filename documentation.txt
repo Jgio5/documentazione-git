@@ -1,0 +1,25 @@
+Git - Controllo di versione
+Sistema che registra nel tempo uno o più file modificati da consultare nel tempo
+
+Ogni client è una copia di backup dell'archivio,
+si può puschare in un secondo momento lavorando in locale.
+
+git --version (verificare se è installato)
+
+git config --list (vedere utenti e impsotazioni salvate)
+
+git help config | git config --help (tutti i comandi)
+
+git init (creare cartella git nascosta)
+
+git clone (url git) nome-cartella (Scarico da github un progetto e lo clono creando una nuova cartella)
+
+____________
+
+git status (stato attuale dei file)
+
+git add (contrassegnare un file nella nostra area)
+
+git commit (caricare una istantanea)
+
+git log (registro delle istantanee)
