@@ -19,6 +19,7 @@ ____________
 git status (stato attuale dei file)
 
 git add (contrassegnare un file nella nostra area)
+git restore --staged nome-file (posso toglierlo da add)
 
 git commit (caricare una istantanea)
 Inserire in alto dove non c'è # il commento del commit
@@ -32,6 +33,7 @@ git log --oneline (tutti i commit, 1 per riga)
 
 _____________
 
-git commit --amend
+git commit --amend (sovvrascrive il commit precedente e cambiare la nota)
+git commit --amend -m "add license"
 git restore --staged
 git diff
