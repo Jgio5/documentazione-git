@@ -21,5 +21,17 @@ git status (stato attuale dei file)
 git add (contrassegnare un file nella nostra area)
 
 git commit (caricare una istantanea)
+Inserire in alto dove non c'è # il commento del commit
+Es.: Essendo il primo inserico: Initial commit
+OPPURE
+git commit -m "Initial commit"
 
 git log (registro delle istantanee)
+git log --stat (indica quante riga sono state aggiunte o cancellate)
+git log --oneline (tutti i commit, 1 per riga)
+
+_____________
+
+git commit --amend
+git restore --staged
+git diff
