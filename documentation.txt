@@ -35,5 +35,9 @@ _____________
 
 git commit --amend (sovvrascrive il commit precedente e cambiare la nota)
 git commit --amend -m "add license"
-git restore --staged
-git diff
+
+git restore --staged nome-file (posso toglierlo da add)
+git restore nome-file (riportiamo il file all'ultimo salvataggio)
+
+git diff (file modificati rispetto all'ultimo commit e cosa è stato modificato)
+git diff nome-file (per vedere modifiche di solo quel file)
