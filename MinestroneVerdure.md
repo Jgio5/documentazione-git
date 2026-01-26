@@ -7,3 +7,6 @@ Un ttimo piatto invernale.
 * Cipolle
 * Patate
 * Carote
+* zucchine
+* peperoni
+* fagioli
