@@ -41,3 +41,13 @@ git restore nome-file (riportiamo il file all'ultimo salvataggio)
 
 git diff (file modificati rispetto all'ultimo commit e cosa è stato modificato)
 git diff nome-file (per vedere modifiche di solo quel file)
+
+____________
+
+git log --oneline --all --graph (mi fa un'alberatura dei commit)
+
+____________
+
+git checkout master
+git merce risotto (per unire i due rami)
+git branch -d risotto (cancello il puntatore)
