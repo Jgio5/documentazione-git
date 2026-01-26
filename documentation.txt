@@ -41,3 +41,31 @@ git restore nome-file (riportiamo il file all'ultimo salvataggio)
 
 git diff (file modificati rispetto all'ultimo commit e cosa è stato modificato)
 git diff nome-file (per vedere modifiche di solo quel file)
+
+____________
+
+git remote (Per collegarci in remoto, se è vuoto vuol dire che non c'è nulla)
+
+git remote add origin (alias) url-repository
+git remote
+origin
+
+git remote --verbose | git remote --v (url della repo)
+
+git push origin (alis) master (nome ramo) (carico i file su github)
+
+git remote show origin (dettagli repo)
+
+git fetch --all (vado a scaricare gli aggiornamenti dalla repo remota)
+
+git log --oneline --all (per vedere anche lo storico della repo remota)
+
+git pull origin master (sincronizzazione del ramo master con il ramo remoto)
+
+git remote rename backup bck (rinomina l'alias remoto)
+git remote rm bck (Elinare repo remoto)
+
+_____________
+
+git branch caronara (crea un nuovo ramo)
+git checkout carbonara (mi sposto su un altro ramo)
