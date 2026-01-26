@@ -67,5 +67,5 @@ git remote rm bck (Elinare repo remoto)
 
 _____________
 
-git branch caronara (crea un nuovo ramo)
+git branch carbonara (crea un nuovo ramo)
 git checkout carbonara (mi sposto su un altro ramo)
