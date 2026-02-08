@@ -72,7 +72,7 @@ git remote rm bck (Elinare repo remoto)
 _____________
 
 git branch carbonara (crea un nuovo ramo)
-git checkout carbonara (mi sposto su un altro ramo)
+git checkout carbonara (mi sposto su un altro ramo in base al nome che scelgo)
 
 git checkout master (i merge vanno sul principale)
 git merge risotto (per unire i due rami)
