@@ -8,4 +8,5 @@ Questo archivio contiene tutte le ricette preferite di Zavy!
 * Spaghetti aglio, olio e peperoncino
 * Risotto ai funghi
 * Pennette alla carbonara
-* Minestrone di verdure
+* Minestrone di verdue
+* Salmone al cartoccio
