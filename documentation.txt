@@ -133,4 +133,4 @@ ____________
 
 Creare token su github per poi poter lavorare su una repo privata scegliendo i permessi
 
-git clone https://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@github.com/Jgio5/test-private.git
+git clone https://token@github.com/Jgio5/test-private.git
