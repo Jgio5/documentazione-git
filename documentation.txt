@@ -79,4 +79,6 @@ git merge risotto (per unire i due rami)
 git branch -d risotto (cancello il puntatore)
 _____________
 
-git rebase
+1. Aggiungo un file con un altro utente
+git rebase master (Attenzione a non farlo da remoto se non sei sicuro che non siano allineati i profetti con altri sviluppatori)
+2. In questo caso unifico le modifiche degli utenti in un solo ramo
