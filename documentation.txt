@@ -115,3 +115,22 @@ git push origin v1.0 (per pushiare il tag)
 
 git tag v1.1 (crea il tag sull'ultimo commit)
 git tag -d v1.1 (eliminare il tag)
+
+____________
+
+Creare un server git in locale
+
+git clone https://github.com/Jgio5/documentazione-git.git --bare (servono solo lato server)
+
+mv documentazione-git.git/ r:\
+git clone /r/documentazione-git.git
+
+git remote -v (origin R:/documentazione-git.it/ fetch e push)
+
+git push (push remote sulla repository del nuovo server e non su github)
+
+____________
+
+Creare token su github per poi poter lavorare su una repo privata scegliendo i permessi
+
+git clone https://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@github.com/Jgio5/test-private.git
