@@ -101,4 +101,7 @@ idee/* (escludo tutti i file dentro la cartella ma non la cartella, in questo mo
 _____________
 
 Sospendere e riprendere una modifica più avanti
-git stash push
+git stash push (push facoltativo)
+git stash list (per vedere l'indice dello stash)
+git stash apply stash@{0} (per tornare allo stash)
+git stash drop stash@{0} (serve per eliminare lo stash, se sono di più git stash clear)
