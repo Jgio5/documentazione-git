@@ -109,5 +109,9 @@ git stash drop stash@{0} (serve per eliminare lo stash, se sono di più git stas
 _____________
 
 git tag -a v1.0 dcdaf45 -m "Release 1.0" (Creo un tag in maniera locale)
+git tag v1.0 8d61829 (se non si vuole scrivere un commento)
 git show v1.0 (Per visualizzare il tag)
 git push origin v1.0 (per pushiare il tag)
+
+git tag v1.1 (crea il tag sull'ultimo commit)
+git tag -d v1.1 (eliminare il tag)
