@@ -78,3 +78,5 @@ git checkout master (i merge vanno sul principale)
 git merge risotto (per unire i due rami)
 git branch -d risotto (cancello il puntatore)
 _____________
+
+git rebase
