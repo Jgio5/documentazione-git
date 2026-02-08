@@ -17,6 +17,7 @@ git clone (url git) nome-cartella (Scarico da github un progetto e lo clono crea
 ____________
 
 git status (stato attuale dei file)
+git status -u (fa vedere i file dentro la directory)
 
 git add (contrassegnare un file nella nostra area)
 git restore --staged nome-file (posso toglierlo da add)
@@ -82,3 +83,17 @@ _____________
 1. Aggiungo un file con un altro utente
 git rebase master (Attenzione a non farlo da remoto se non sei sicuro che non siano allineati i profetti con altri sviluppatori)
 2. In questo caso unifico le modifiche degli utenti in un solo ramo
+
+_____________
+
+Come ignorare alcuni file o directory?
+
+# commenti
+! negazioni
+/ directory
+
+Se faccio:
+
+idee/ (escludo tutta la cartella per cui non potrò fare eccezzioni)
+idee/* (escludo tutti i file dentro la cartella ma non la cartella, in questo modo creo le eccezioni)
+!idee/istruzioni.md (escludo)
