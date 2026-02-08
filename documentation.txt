@@ -97,3 +97,8 @@ Se faccio:
 idee/ (escludo tutta la cartella per cui non potrò fare eccezzioni)
 idee/* (escludo tutti i file dentro la cartella ma non la cartella, in questo modo creo le eccezioni)
 !idee/istruzioni.md (escludo)
+
+_____________
+
+Sospendere e riprendere una modifica più avanti
+git stash push
